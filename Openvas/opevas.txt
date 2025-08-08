@@ -1,0 +1,62 @@
+
+To install and initialize OpenVAS:
+
+
+sudo apt update
+sudo apt install openvas
+sudo gvm-setup
+sudo gvm-start
+Access the web interface at: https://<ip>:9392 (Default username: admin, password set during setup)
+
+Performing a Scan (Web Interface)
+Login to Web UI Go to https://<ip>9392 and log in.
+
+Create a Target
+
+Navigate to Targets
+
+Click New Target
+
+Enter IP or hostname (e.g., 127.0.0.1)
+
+Save
+
+Create a Task
+
+Go to Tasks
+
+Click New Task
+
+Choose a scan config (e.g., Full and fast)
+
+Select your target
+
+Save
+
+Start the Scan
+
+Click the play icon next to your task
+
+Wait for the scan to complete
+
+Save the Report
+
+Go to Reports
+
+Select your scan
+
+Choose Download
+
+Export as PDF, HTML, XML, or CSV
+
+OpenVAS Uses
+
+Vulnerability Assessment: Detect known vulnerabilities in systems and applications.
+
+🔍 Network Scanning: Identify open ports, services, and potential misconfigurations.
+
+🛡️ Security Auditing: Evaluate compliance with security policies.
+
+📊 Reporting: Generate detailed reports for remediation and documentation.
+
+🔄 Continuous Monitoring: Schedule recurring scans to track changes and new risks.
